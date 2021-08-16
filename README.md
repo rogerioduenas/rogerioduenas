@@ -1,6 +1,6 @@
 # Bem vindo ao meu Perfil!👽 👾 🤖
  - Olá meu nome é Rogerio
- - Recruta 💻
+ - Recruta 👨‍🔬
  - Focado em me tornar um Dev Front-End 💻 
 
  <div>
