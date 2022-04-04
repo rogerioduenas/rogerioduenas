@@ -1,7 +1,7 @@
 # Bem vindo ao meu Perfil!👽 👾 🤖
  - Olá meu nome é Rogerio
- - Recruta 👨‍🔬
- - Focado em me tornar um Dev Front-End 💻 
+ - Desenvolvedor Front End 💻 
+ - Minha principal tecnologia é Javascript com React Js
 
  <div>
   <a href="https://github.com/rogerioduenas">
