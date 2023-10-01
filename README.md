@@ -1,7 +1,6 @@
-# Bem vindo ao meu Perfil!👽 👾 🤖
- - Olá meu nome é Rogerio
- - Desenvolvedor Front End 💻 
- - Minha principal tecnologia é Javascript com React Js
+# Welcome to my Profile! 👽 👾 🤖
+ - Hello, my name is Rogerio
+ - Front End Developer 💻 
 
  <div>
   <a href="https://github.com/rogerioduenas">
