@@ -8,7 +8,7 @@ class Rogerio extends Person {
     this.age = 33;
     this.work = ['QS Qualidade em Saúde', 'Loop Brasil', 'Freelance'];
     this.expertise = ['Frontend']
-    this.hobbies = ['Gym', 'Warzone', 'Movies'];
+    this.hobbies = ['Gym', 'Warzone', 'Podcast'];
   }
 
   currentLocation() {
