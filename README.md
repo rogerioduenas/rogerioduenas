@@ -6,17 +6,13 @@ class Rogerio extends Person {
     super();
     this.name = 'Rogerio Duenas';
     this.age = 33;
-    this.work = ['Loop Brasil', ' QS Qualidade em Saúde', 'Freelance mode'];
+    this.work = ['QS Qualidade em Saúde', 'Loop Brasil', 'Freelance'];
     this.expertise = ['Frontend']
     this.hobbies = ['Gym', 'Warzone', 'Movies'];
   }
 
   currentLocation() {
     return ['Funabashi, Chiba, JAPAN'];
-  }
-
-  nextLocations() {
-    return ['Portugal', 'Spain'];
   }
 
   currently() {
