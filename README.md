@@ -12,7 +12,7 @@ class Rogerio extends Person {
   }
 
   currentLocation() {
-    return ['Funabashi, Chiba, JAPAN'];
+    return ['Tokyo, Chiba, JAPAN'];
   }
 
   currently() {
