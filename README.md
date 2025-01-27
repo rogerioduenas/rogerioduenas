@@ -5,23 +5,51 @@ class Rogerio extends Person {
   constructor() {
     super();
     this.name = 'Rogerio Duenas';
-    this.age = 33;
-    this.work = ['QS Qualidade em Saúde', 'Loop Brasil', 'Freelance'];
-    this.expertise = ['Frontend']
-    this.hobbies = ['Gym', 'Warzone', 'Podcast'];
+    this.age = 34;
+    this.work = [
+      { company: 'QS Qualidade em Saúde', role: 'Frontend Developer', duration: '1 year' },
+      { company: 'Loop Brasil', role: 'Frontend Developer', duration: '1 year' },
+      { company: 'Freelance', role: 'Frontend Projects', duration: 'Ongoing' }
+    ];
+    this.expertise = ['ReactJS', 'JavaScript', 'TypeScript', 'NextJS', 'Material UI'];
+    this.hobbies = ['Gym', 'Video games (FPS)', 'Podcasts about technology'];
   }
 
   currentLocation() {
-    return ['Tokyo, Chiba, JAPAN'];
+    return ['Tokyo, JAPAN'];
   }
 
   currently() {
     return {
-      studying: ['English', 'NodeJS'],
-      making: ['Refactoring my profile', 'Creating new Personal Projects'],
+      studying: [
+        'English (focusing on speaking and listening)',
+        'NodeJS (building APIs, Express, and advanced concepts)',
+        'Programming books (Computer Networks, Operating Systems)'
+      ],
+      volunteering: ['Frontend development for Hack for LA (non-profit projects)'],
+    };
+  }
+
+  goals() {
+    return {
+      shortTerm: ['Fluency in English', 'Master NodeJS', 'Contribute more to open-source'],
+      longTerm: ['Become a Fullstack Developer', 'Work in a good company']
+    };
+  }
+
+  philosophy() {
+    return "The only way to fail is to give up, eventually, we'll get a 200 status code!";
+  }
+
+  contacts() {
+    return {
+      linkedIn: 'https://www.linkedin.com/in/rogerio-duenas-3428441b1/',
+      github: 'https://github.com/rogerioduenas',
+      portfolio: 'https://portfolio-rogerioduenas-projects.vercel.app/'
     };
   }
 }
+
 ```
 ##
 ### 🔨 Languages and Tools:
