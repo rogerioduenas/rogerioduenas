@@ -8,8 +8,7 @@ class Rogerio extends Person {
     this.age = 34;
     this.work = [
       { company: 'QS Qualidade em Saúde', role: 'Frontend Developer', duration: '1 year' },
-      { company: 'Loop Brasil', role: 'Frontend Developer', duration: '1 year' },
-      { company: 'Freelance', role: 'Frontend Projects', duration: 'Ongoing' }
+      { company: 'Loop Brasil', role: 'Frontend Developer', duration: '1 year' }
     ];
     this.expertise = ['ReactJS', 'JavaScript', 'TypeScript', 'NextJS', 'Material UI'];
     this.hobbies = ['Gym', 'Video games (FPS)', 'Podcasts about technology'];
