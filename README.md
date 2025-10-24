@@ -23,7 +23,7 @@ class Rogerio extends Person {
     return {
       studying: [
         'English (focusing on speaking and listening)',
-        'NodeJS (building APIs, Express, and advanced concepts)',
+        'Golang (learning core and advanced concepts)',
         'Programming books (Computer Networks, Operating Systems)'
       ],
       volunteering: ['Frontend development for Hack for LA (non-profit projects)'],
@@ -32,8 +32,8 @@ class Rogerio extends Person {
 
   goals() {
     return {
-      shortTerm: ['Fluency in English', 'Master NodeJS', 'Contribute more to open-source'],
-      longTerm: ['Become a Fullstack Developer', 'Work in a good company']
+      shortTerm: ['Fluency in English', 'Master Golang', 'Contribute more to open-source'],
+      longTerm: ['Become a Backend or Fullstack Developer', 'Work in a good company']
     };
   }
 
