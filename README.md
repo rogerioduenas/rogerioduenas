@@ -1,46 +1,50 @@
 # ✌🏻Welcome to my Profile!🤖 
 
 ```javascript
-class Rogerio extends Person {
+class Rogerio extends Developer {
   constructor() {
     super();
     this.name = 'Rogerio Duenas';
-    this.age = 34;
-    this.work = [
-      { company: 'QS Qualidade em Saúde', role: 'Frontend Developer', duration: '1 year' },
-      { company: 'Loop Brasil', role: 'Frontend Developer', duration: '1 year' }
+    this.age = 35;
+    this.totalExperience = '2+ years';
+    
+    this.experience = [
+      { company: 'QS Qualidade em Saúde', role: 'Frontend Developer' },
+      { company: 'Loop Brasil', role: 'Frontend Developer' },
+      { company: 'Hack for LA', role: 'Frontend Developer (Volunteer)' }
     ];
-    this.expertise = ['ReactJS', 'JavaScript', 'TypeScript', 'NextJS', 'Material UI'];
-    this.hobbies = ['Gym', 'Video games (FPS)', 'Podcasts about technology'];
+    
+    this.techStack = [
+      'ReactJS', 'NextJS', 'TypeScript', 'JavaScript', 'Material UI',
+      'Java', 'Spring Boot', 'PostgreSQL', 'Docker' 
+    ];
+    
+    this.hobbies = ['Gym', 'Games', 'Podcasts'];
   }
 
-  currentLocation() {
-    return ['Tokyo, JAPAN'];
+  get location() {
+    return 'Tokyo, JAPAN 🇯🇵';
   }
 
-  currently() {
+  get currently() {
     return {
-      studying: [
-        'English (focusing on speaking and listening)',
-        'Java (learning core and advanced concepts)',
-        'Reading (Thinking in Java)'
-      ],
-      volunteering: ['Frontend development for Hack for LA (non-profit projects)'],
+      focus: 'Fullstack Development & Software Architecture',
+      reading: 'Thinking in Java'
     };
   }
 
-  goals() {
+  get goals() {
     return {
-      shortTerm: ['Fluency in English', 'Master Java'],
-      longTerm: ['Become a Backend or Fullstack Developer', 'Work in a good company']
+      shortTerm: ['Transition to a Fullstack role', 'Contribute to challenging global projects'],
+      longTerm: ['Build highly scalable backend systems', 'Work in a top-tier tech company']
     };
   }
 
-  philosophy() {
-    return "The only way to fail is to give up, eventually, we'll get a 200 status code!";
+  get philosophy() {
+    return "The only way to fail is to give up. Eventually, we'll get a 200 status code!";
   }
 
-  contacts() {
+  get contacts() {
     return {
       linkedIn: 'https://www.linkedin.com/in/rogerio-duenas-3428441b1/',
       github: 'https://github.com/rogerioduenas',
@@ -48,7 +52,6 @@ class Rogerio extends Person {
     };
   }
 }
-
 ```
 ##
 ### 🔨 Languages and Tools:
